@@ -2,6 +2,23 @@
 
 ## 📌 Project Overview
 
+## 📊 Interactive Dashboard
+
+### 🚀 [View Live Swiggy Executive Performance Dashboard](https://rohitroy404.github.io/swiggy-sales-sql-analysis/swiggy_sales_report.html)
+
+An interactive executive dashboard built from the Swiggy dataset to analyze:
+
+- 💰 Revenue Performance
+- 📦 Order Volume
+- ⭐ Customer Ratings
+- 🍽️ Category Performance
+- 🏪 Restaurant Performance
+- 📍 City & State Analysis
+- 📅 Monthly Revenue Trends
+- 🔎 Interactive Filters & Slicers
+
+> **Click the link above to explore the live dashboard.**
+
 This project analyzes a **197K+ Swiggy food delivery dataset** using **MySQL** to extract valuable business insights related to restaurant performance, customer ratings, pricing, and revenue trends.
 
 The project demonstrates real-world SQL data analysis techniques, including data cleaning, aggregation, window functions, Common Table Expressions (CTEs), ranking functions, and business-oriented SQL queries.
