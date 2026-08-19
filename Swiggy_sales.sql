@@ -128,6 +128,23 @@ WITH revenue_cte AS (
     GROUP BY City,Restaurant_Name
 )
 
+
+-- 4 WHich category performs best in each city 
+WITH CTE AS(
+SELECT City,Category,AVG(Rating) AS avg_rating, DENSE_RANK() OVER(partition by CITY ORDER BY AVG(Rating) DESC) AS rn  FROM swiggy_database GROUP BY City,category)
+SELECT City,Category,avg_rating FROM CTE WHERE rn=1 OR rn=2;
+
+
+-- 5 Which restaurants have the highest average rating in each city?
+WITH CTE AS
+(SELECT city,Restaurant_Name,AVG(rating) AS avg_rating,ROW_NUMBER() OVER( partition by City ORDER BY AVG(rating) DESC) AS rn FROM swiggy_database
+GROUP BY City,Restaurant_Name)
+SELECT city,Restaurant_Name,avg_rating FROM CTE WHERE rn=1;
+
+-- 6 Category Contributing Most to Revenue
+SELECT * FROM swiggy_cleaned;
+SELECT category,SUM(Price) FROM swiggy_cleaned GROUP BY category ORDER BY SUM(Price) DESC;
+
 SELECT *
 FROM revenue_cte
 WHERE rn=1;
