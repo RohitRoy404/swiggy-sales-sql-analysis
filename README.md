@@ -228,9 +228,14 @@ Through this project, I strengthened my understanding of:
 
 ✅ SQL Business Analysis Completed
 
-🔄 Power BI Dashboard (In Progress)
+🔄  Dashboard Creation Using AI Completed
 
 ---
+
+## 🤖 AI Assistance
+
+AI tools, including Claude, were used as a development aid for dashboard design, SQL refinement, and visualization ideas. All SQL queries, calculations, insights, and final dashboard outputs were reviewed and validated as part of the project workflow.
+
 
 # 👨‍💻 Author
 
