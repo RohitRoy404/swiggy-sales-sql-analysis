@@ -191,7 +191,7 @@ Dashboard Creation using AI
 
 ### Report/Dashboard
 
-
+![Dashboard](images/Sales_Report.png)
 
 ---
 
