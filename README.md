@@ -188,11 +188,11 @@ Dashboard Creation using AI
 
 ### SQL Analysis
 
-*(Screenshots will be added here.)*
 
-### Power BI Dashboard
 
-*(Coming Soon)*
+### Report/Dashboard
+
+
 
 ---
 
@@ -248,7 +248,7 @@ Aspiring Data Analyst
 ### Connect with me
 
 - GitHub: https://github.com/RohitRoy404
-- LinkedIn: *(Add your LinkedIn profile link here)*
+- LinkedIn: https://www.linkedin.com/in/rohit-roy-7110a0283/
 
 ---
 
