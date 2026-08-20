@@ -187,8 +187,7 @@ Dashboard Creation using AI
 # 📸 Project Screenshots
 
 ### SQL Analysis
-
-
+![SQL Analysis](images/sql_analysis.png)
 
 ### Report/Dashboard
 
