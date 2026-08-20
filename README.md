@@ -169,7 +169,7 @@ SQL Data Analysis
 Business Insights
     │
     ▼
-Power BI Dashboard (Coming Soon)
+Dashboard Creation using AI
 ```
 
 ---
